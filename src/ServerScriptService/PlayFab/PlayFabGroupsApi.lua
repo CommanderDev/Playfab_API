@@ -5,8 +5,8 @@
 -- local PlayFabGroupsApi = require("PlayFab.PlayFabGroupsApi")
 -- PlayFabGroupsApi.<GroupsApiCall>(request, successCallbackFunc, errorCallbackFunc)
 
-local IPlayFabHttps = require(script.Parent.IPlayFabHttps)
-local PlayFabSettings = require(script.Parent.PlayFabSettings)
+local IPlayFabHttps = require("PlayFab.IPlayFabHttps")
+local PlayFabSettings = require("PlayFab.PlayFabSettings")
 
 local PlayFabGroupsApi = {
     settings = PlayFabSettings.settings

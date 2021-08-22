@@ -5,8 +5,8 @@
 -- local PlayFabMultiplayerApi = require("PlayFab.PlayFabMultiplayerApi")
 -- PlayFabMultiplayerApi.<MultiplayerApiCall>(request, successCallbackFunc, errorCallbackFunc)
 
-local IPlayFabHttps = require(script.Parent.IPlayFabHttps)
-local PlayFabSettings = require(script.Parnet.PlayFabSettings)
+local IPlayFabHttps = require("PlayFab.IPlayFabHttps")
+local PlayFabSettings = require("PlayFab.PlayFabSettings")
 
 local PlayFabMultiplayerApi = {
     settings = PlayFabSettings.settings

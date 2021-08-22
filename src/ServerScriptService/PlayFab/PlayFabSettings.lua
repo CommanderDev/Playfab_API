@@ -6,7 +6,7 @@
 
 local PlayFabSettings = {
     _internalSettings = {
-        sessionTicket = nil,
+        sessionTickets = {},
         sdkVersionString = "DefoldSdk_0.101.210802",
         buildIdentifier = "jbuild_luasdk_sdk-generic-3_1",
         requestGetParams = {["sdk"] = "DefoldSdk_0.101.210802"}
@@ -14,8 +14,8 @@ local PlayFabSettings = {
     settings = {
         productionUrl = ".playfabapi.com",
         verticalName = nil, -- The name of a customer vertical. This is only for customers running a private cluster. Generally you shouldn't touch this
-        devSecretKey = "INSERT YOUR KEY",
-        titleId = "INSERT YOUR TITLE ID!"
+        devSecretKey = "1PZAMBQMI9AFNTSYAJTNQMFSUH5J6J3S3D1IRCXCAF8ABBG9NM",
+        titleId = "CAC37"
     }
 }
 

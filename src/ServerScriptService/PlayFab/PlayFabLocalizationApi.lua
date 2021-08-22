@@ -5,8 +5,8 @@
 -- local PlayFabLocalizationApi = require("PlayFab.PlayFabLocalizationApi")
 -- PlayFabLocalizationApi.<LocalizationApiCall>(request, successCallbackFunc, errorCallbackFunc)
 
-local IPlayFabHttps = require(script.Parent.IPlayFabHttps)
-local PlayFabSettings = require(script.Parent.PlayFabSettings)
+local IPlayFabHttps = require("PlayFab.IPlayFabHttps")
+local PlayFabSettings = require("PlayFab.PlayFabSettings")
 
 local PlayFabLocalizationApi = {
     settings = PlayFabSettings.settings

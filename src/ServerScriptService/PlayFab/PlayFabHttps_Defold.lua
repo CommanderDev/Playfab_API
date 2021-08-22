@@ -47,10 +47,8 @@ function PlayFabHttps_Defold.MakePlayFabApiCall(urlPath, request, authKey, authV
 
 	local requestHeaders = {
 		["X-PlayFabSDK"] = PlayFabSettings._internalSettings.sdkVersionString,
-		--["Content-Type"] = "application/json"
-		-- ["content-length"] = tostring(string.len(requestStr)) -- probably not needed for this one
 	}
-	if (authKey) then
+	if authKey then
 		requestHeaders[authKey] = authValue
 	end
 

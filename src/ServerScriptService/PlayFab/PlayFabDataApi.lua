@@ -5,8 +5,8 @@
 -- local PlayFabDataApi = require("PlayFab.PlayFabDataApi")
 -- PlayFabDataApi.<DataApiCall>(request, successCallbackFunc, errorCallbackFunc)
 
-local IPlayFabHttps = require(script.Parent.IPlayFabHttps)
-local PlayFabSettings = require(script.Parnet.PlayFabSettings)
+local IPlayFabHttps = require("PlayFab.IPlayFabHttps")
+local PlayFabSettings = require("PlayFab.PlayFabSettings")
 
 local PlayFabDataApi = {
     settings = PlayFabSettings.settings

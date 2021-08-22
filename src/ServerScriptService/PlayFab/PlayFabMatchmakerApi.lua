@@ -5,8 +5,8 @@
 -- local PlayFabMatchmakerApi = require("PlayFab.PlayFabMatchmakerApi")
 -- PlayFabMatchmakerApi.<MatchmakerApiCall>(request, successCallbackFunc, errorCallbackFunc)
 
-local IPlayFabHttps = require(script.Parent.IPlayFabHttps)
-local PlayFabSettings = require(script.Parent.PlayFabSettings)
+local IPlayFabHttps = require("PlayFab.IPlayFabHttps")
+local PlayFabSettings = require("PlayFab.PlayFabSettings")
 
 local PlayFabMatchmakerApi = {
     settings = PlayFabSettings.settings

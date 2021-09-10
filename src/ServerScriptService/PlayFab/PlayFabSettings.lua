@@ -14,8 +14,8 @@ local PlayFabSettings = {
     settings = {
         productionUrl = ".playfabapi.com",
         verticalName = nil, -- The name of a customer vertical. This is only for customers running a private cluster. Generally you shouldn't touch this
-        devSecretKey = "1PZAMBQMI9AFNTSYAJTNQMFSUH5J6J3S3D1IRCXCAF8ABBG9NM",
-        titleId = "CAC37"
+        devSecretKey = "INSERT KEY",
+        titleId = "INSERT TITLE ID"
     }
 }
 
